@@ -27,16 +27,15 @@ typedef struct matrix_struct {
 | ------ | ------ | ------ |
 | 1 | `int create_matrix(int rows, int columns, matrix_t *result)` | Создание матриц. |
 | 2 | `void remove_matrix(matrix_t *A)` | Очистка матриц. |
-| 3 | `void remove_matrix(matrix_t *A)` | Очистка матриц. |
-| 4 | `int eq_matrix(matrix_t *A, matrix_t *B)` | Сравнение матриц. |
-| 5 | `int sum_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Сложение матриц. |
-| 6	| `int sub_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Вычитание матриц. |
-| 7 | `int mult_number(matrix_t *A, double number, matrix_t *result)` | Умножение матрицы на число. |
-| 8 | `int mult_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Умножение двух матриц. |
-| 9 | `int transpose(matrix_t *A, matrix_t *result)` | Транспонирование матрицы. |
-| 10 | `int calc_complements(matrix_t *A, matrix_t *result)` | Минор матрицы и матрица алгебраических дополнений. |
-| 11 | `int determinant(matrix_t *A, double *result)` | Определитель матрицы. |
-| 12 | `int inverse_matrix(matrix_t *A, matrix_t *result)` | Обратная матрица. |
+| 3 | `int eq_matrix(matrix_t *A, matrix_t *B)` | Сравнение матриц. |
+| 4 | `int sum_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Сложение матриц. |
+| 5	| `int sub_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Вычитание матриц. |
+| 6 | `int mult_number(matrix_t *A, double number, matrix_t *result)` | Умножение матрицы на число. |
+| 7 | `int mult_matrix(matrix_t *A, matrix_t *B, matrix_t *result)` | Умножение двух матриц. |
+| 8 | `int transpose(matrix_t *A, matrix_t *result)` | Транспонирование матрицы. |
+| 9 | `int calc_complements(matrix_t *A, matrix_t *result)` | Минор матрицы и матрица алгебраических дополнений. |
+| 10 | `int determinant(matrix_t *A, double *result)` | Определитель матрицы. |
+| 11 | `int inverse_matrix(matrix_t *A, matrix_t *result)` | Обратная матрица. |
 
 ### Так же, для реализации, были написаны следующие вспомогательные функции:
 
