@@ -4,7 +4,7 @@
 
 ### В проекте реализованы следующие функции:
 
-| No. | Function | Description |
+| № | Function | Description |
 | --- | -------- | ----------- |
 | 1 | `int abs(int x)` | вычисляет абсолютное значение целого числа |
 | 2 | `long double acos(double x)` | вычисляет арккосинус |
