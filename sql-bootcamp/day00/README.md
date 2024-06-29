@@ -36,7 +36,6 @@
 
 Persons' visit and persons' order are different entities and don't contain any correlation between data. For example, a client can be in one restaurant (just looking at menu) and in this time make an order in different one by phone or by mobile application. Or another case,  just be at home and again make a call with order without any visits.
 
-## Chapter IV
 ## Exercise 00 - First steps into SQL world
 
 | Exercise 00: First steps into SQL world |                                                                                                                          |
@@ -49,8 +48,6 @@ Persons' visit and persons' order are different entities and don't contain any c
 Let’s make our first task. 
 Please make a select statement which returns all person's names and person's ages from the city ‘Kazan’.
 
-
-## Chapter V
 ## Exercise 01 - First steps into SQL world
 
 | Exercise 01: First steps into SQL world |                                                                                                                          |
@@ -62,7 +59,6 @@ Please make a select statement which returns all person's names and person's age
 
 Please make a select statement which returns names , ages for all women from the city ‘Kazan’. Yep, and please sort result by name.
 
-## Chapter VI
 ## Exercise 02 - First steps into SQL world
 
 | Exercise 02: First steps into SQL world |                                                                                                                          |
@@ -76,7 +72,6 @@ Please make 2 syntax different select statements which return a list of pizzeria
 - the 1st select statement must contain comparison signs  (<=, >=)
 - the 2nd select statement must contain `BETWEEN` keyword
 
-## Chapter VII
 ## Exercise 03 - First steps into SQL world
 
 | Exercise 03: First steps into SQL world |                                                                                                                          |
@@ -88,7 +83,6 @@ Please make 2 syntax different select statements which return a list of pizzeria
 
 Please make a select statement which returns the person's identifiers (without duplication) who visited pizzerias in a period from 6th of January 2022 to 9th of January 2022 (including all days) or visited pizzeria with identifier 2. Also include ordering clause by person identifier in descending mode.
 
-## Chapter VIII
 ## Exercise 04 - First steps into SQL world
 
 
@@ -106,7 +100,6 @@ Please make a select statement which returns one calculated field with name ‘p
 Finally, please add the ordering clause by calculated column in ascending mode.
 Please pay attention to quote symbols in your formula!
 
-## Chapter IX
 ## Exercise 05 - First steps into SQL world
 
 
@@ -128,7 +121,6 @@ Please take a look at the pattern of internal query.
     FROM ...
     WHERE ...
 
-## Chapter X
 ## Exercise 06 - First steps into SQL world
 
 
@@ -146,7 +138,6 @@ Please use SQL construction from Exercise 05 and add a new calculated column (us
     if (person_name == 'Denis') then return true
         else return false
 
-## Chapter XI
 ## Exercise 07 - First steps into SQL world
 
 
@@ -166,7 +157,6 @@ Please make a SQL statement which returns a person's identifiers, person's names
 
 and yes...please sort a result by ‘interval_info’ column in ascending mode.
 
-## Chapter XII
 ## Exercise 08 - First steps into SQL world
 
 
@@ -179,7 +169,6 @@ and yes...please sort a result by ‘interval_info’ column in ascending mode.
 
 Please make a SQL statement which returns all columns from the `person_order` table with rows whose identifier is an even number. The result have to order by returned identifier.
 
-## Chapter XIII
 ## Exercise 09 - First steps into SQL world
 
 
