@@ -1,0 +1,18 @@
+#!/bin/bash
+
+HOSTNAME=$(hostname)
+TIMEZONE=$(timedatectl | grep "Time zone" | awk '{print $3, $4, $5}')
+USER=$(whoami)
+OS=$(hostnamectl | grep "Operating System" | awk '{print $3, $4, $5}')
+DATE=$(date | awk '{print $2, $3, $4, $5}')
+UPTIME=$(uptime -p | awk '{print $2, $3, $4, $5}')
+UPTIME_SEC=$(cat /proc/uptime | awk '{print $1}')
+IP=$(hostname -i | awk '{print $1}')
+MASK=$(ipcalc $IP | awk /Netmask/'{print $2}')
+GATEWAY=$(ip r | awk /default/'{print $3}')
+RAM_TOTAL=$(free -m | awk /Mem/'{printf("%0.3f\n", $2/1024)}')
+RAM_USED=$(free -m | awk /Mem/'{printf("%0.3f\n", $3/1024)}')
+RAM_FREE=$(free -m | awk /Mem/'{printf("%0.3f\n", $4/1024)}')
+SPACE_ROOT=$(df -hk | grep "\/$" | awk '{printf("%.2f\n",$2/1024)}')
+SPACE_ROOT_USED=$(df -hk | grep "\/$" | awk '{printf("%.2f\n",$3/1024)}')
+SPACE_ROOT_FREE=$(df -hk | grep "\/$" | awk '{printf("%.2f\n",$4/1024)}')
